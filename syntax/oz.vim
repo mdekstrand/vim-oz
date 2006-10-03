@@ -36,6 +36,7 @@ syn match ozComment /%.*/
 syn match ozComment /?/
 syn region ozComment start="/\*" end="\*/"
 
+" Basic logic for this adapted/borrowed from c.vim
 syn region ozIncluded display contained start=+'+ skip=+\\'+ end=+'+
 syn match ozInclude display /^\s*\\insert\>\s*'/ contains=ozIncluded
 
