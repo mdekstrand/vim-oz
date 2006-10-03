@@ -1,1 +1,1 @@
-au BufRead,BufWrite *.oz set filetype=oz
+au BufRead,BufNewFile *.oz set filetype=oz
