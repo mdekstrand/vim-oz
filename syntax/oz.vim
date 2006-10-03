@@ -1,4 +1,8 @@
-" Vim syntax file for the Oz programming language
+" Written by Michael Ekstrand
+" This file is hereby placed explicitly into the public domain.  If this is
+" not possible in your juristiction, then the author hereby grants to everyone
+" everywhere the irrevocable right to copy, modify, distribute, and use this
+" file.
 
 if version < 600
 	syntax clear
@@ -15,10 +19,6 @@ syn keyword ozKeyword lock meth mod not of or orelse
 syn keyword ozKeyword prepare proc prop raise require
 syn keyword ozKeyword self skip then thread true try
 syn keyword ozKeyword unit
-syn keyword ozKeyword : ... = . := ^ [] $
-syn keyword ozKeyword ! _ ~ + - * / @ <-
-syn keyword ozKeyword , !! <= == \= < =< >
-syn keyword ozKeyword >= =: \=: <: =<: >: >=: :: :::
 syn match ozKeyword /\[\]/
 
 syn match ozOperator /#/
