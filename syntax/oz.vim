@@ -19,6 +19,7 @@ syn keyword ozKeyword lock meth mod not of or orelse
 syn keyword ozKeyword prepare proc prop raise require
 syn keyword ozKeyword self skip then thread true try
 syn keyword ozKeyword unit
+syn keyword ozQualifier lazy
 syn match ozKeyword /\[\]/
 
 syn match ozOperator /#/
@@ -51,4 +52,5 @@ hi default link ozIncluded String
 hi default link ozInclude PreProc
 hi default link ozVariable Identifier
 hi default link ozOperator Operator
+hi default link ozQualifier Type
 hi default link ozNumber Number
